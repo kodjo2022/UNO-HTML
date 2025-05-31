@@ -1,17 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>About My Trip</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>About My Trip to Togo</h1>
-  <p>During my visit, I explored Lomé, visited the markets, enjoyed the local food, and spent time with family. The culture, music, and hospitality made this trip unforgettable.</p>
-  
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About My Trip</a>
-  </nav>
-</body>
-</html>
+/* Basic body styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Wrapper styling for layout */
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header */
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Center class for headings */
+.center {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+/* Paragraph styling */
+section p,
+.content-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  padding: 0 1rem;
+  color: #333;
+}
+
+/* Image styling */
+.profile-photo, .geo-photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  background-color: #f0f0f0;
+  font-size: 0.9rem;
+  color: #666;
+}
