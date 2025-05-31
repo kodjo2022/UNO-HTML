@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About My Trip</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>About My Trip to Togo</h1>
+  <p>During my visit, I explored Lomé, visited the markets, enjoyed the local food, and spent time with family. The culture, music, and hospitality made this trip unforgettable.</p>
+  
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About My Trip</a>
+  </nav>
+</body>
+</html>
